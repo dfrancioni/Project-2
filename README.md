@@ -22,4 +22,4 @@ The main focus of the paper was on the number of infected individuals. I want to
 
 ![image](https://user-images.githubusercontent.com/112734081/206885122-88c51a01-fef5-4079-ba23-309c86c25532.png)
 
-It can be seen that my model is an accurate depiction of their model, so I can look further into fitting this model to the data gathered and seeing if I get a similar fit.
+The model of infected individuals over time is the red plot above. It can be seen that my model is an accurate depiction of their model, so I can look further into fitting this model to the data gathered and seeing if I get a similar fit.
