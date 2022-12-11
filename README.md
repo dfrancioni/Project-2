@@ -5,7 +5,9 @@ In this analysis, I am going to use the SIR model proposed by Dr. Giuseppe Gaeta
 I started this project by using the SIR model based on the following ODEs:
 
 dS/dt = −α*S*I
+
 dI/dt = α*S*I − β*I
+
 dR/dt = β*I
 
 Where S represents the indivituals susceptible to infection at a given time, I is the number of individuals infected at a given time, and R represents the individuals removed from the epidemic dynamics (i.e. they are either recovered, dead, or isolated). For the α and β parameters and the initial conditions (S0,I0,R0) I used the same values that were estimated in the paper. 
