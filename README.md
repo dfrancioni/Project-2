@@ -14,9 +14,7 @@ To design the model, I used the forward euler method to estimate solutions to th
 
 ![image](https://user-images.githubusercontent.com/112734081/206884953-af6b9bfd-7c72-4e84-9a82-57ce7f993c3c.png)
 
-
 ![image](https://user-images.githubusercontent.com/112734081/206884959-997cfbae-bac2-48ea-b673-a0cc230bef3f.png)
-
 
 ![image](https://user-images.githubusercontent.com/112734081/206884970-33b44710-4411-4fe8-96d8-2bcc3a0e5b0e.png)
 
