@@ -36,6 +36,6 @@ I was able to get a better fit in the early stages of the model, although the fa
 
 ![image](https://user-images.githubusercontent.com/112734081/206947187-38ae9ffa-9404-4f20-a5ad-d4e4584d59d7.png)
 
-
+So I am not sure if initial values were changed to match the data and get a better fit, but from the paper this is not listed anywhere so I am going to have to assume that there was something done differently in their hand calculations that I am not able to simulate. 
 
 
