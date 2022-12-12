@@ -20,8 +20,10 @@ To design the model, I used the forward euler method to estimate solutions to th
 
 ![image](https://user-images.githubusercontent.com/112734081/206884970-33b44710-4411-4fe8-96d8-2bcc3a0e5b0e.png)
 
-The main focus of the paper was on the number of infected individuals. I want to make sure my model conforms to the model used in the paper as they calculated solutions to the ODEs by hand. The solid black line in the top right image below represents the prediction of number of infected indivituals over time they achieved from their model:
+The main focus of the section of the paper that I am analyzing was on the number of cumulative infected individuals. I want to make sure my model conforms to the model used in the paper as they calculated solutions to the ODEs by hand. The solid black line in the top right image below represents the prediction of number of infected indivituals over time they achieved from their model:
 
 ![image](https://user-images.githubusercontent.com/112734081/206885122-88c51a01-fef5-4079-ba23-309c86c25532.png)
 
-The model of infected individuals over time is the red plot above. It can be seen that my model is an accurate depiction of their model, so I can look further into fitting this model to the data gathered and seeing if I get a similar fit.
+The model of infected individuals over time is the red plot above. It can be seen that my model is an accurate depiction of their model, so I can look further into fitting this model to the data gathered and seeing if I get a similar fit. The fit they obtained from their model is below:
+
+
