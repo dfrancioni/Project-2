@@ -24,6 +24,18 @@ The main focus of the section of the paper that I am analyzing was on the number
 
 ![image](https://user-images.githubusercontent.com/112734081/206885122-88c51a01-fef5-4079-ba23-309c86c25532.png)
 
-The model of infected individuals over time is the red plot above. It can be seen that my model is an accurate depiction of their model, so I can look further into fitting this model to the data gathered and seeing if I get a similar fit. The fit they obtained from their model is below:
+The model of infected individuals over time is the red plot above. It can be seen that my model is an accurate depiction of their model, so I can look further into fitting this model to the data gathered and seeing if I get a similar fit. The fit they obtained from their model is also shown above in the bottom row. To try and match the fit I downloaded their data in the form of a csv and plotted it against the fit to the plot of R(t). The initial fit is shown below:
+
+![image](https://user-images.githubusercontent.com/112734081/206946209-ca9908f6-1b1d-4957-a932-743256e48a9e.png)
+
+Athough, in this fit the data does not started at optimized value of R(0) calculated within the paper. I do not believe the paper leaves enough information on how exactly they got the plot to fit starting from the point (0,0). In order to get a more accurate fit, I created a seperate CSV file that starts at the March 5th data point which about matches the optimized R(0) value. This plot is shown below:
+
+![image](https://user-images.githubusercontent.com/112734081/206946553-f768204a-e23e-4c96-9fff-519edd6ddb4d.png)
+
+I was able to get a better fit in the early stages of the model, although the farther you extend the range of the model, the more the fit falls off. After day 15 the fit seems to no longer be accurate as can be seen below.
+
+![image](https://user-images.githubusercontent.com/112734081/206947187-38ae9ffa-9404-4f20-a5ad-d4e4584d59d7.png)
+
+
 
 
