@@ -20,7 +20,7 @@ To design the model, I used the forward euler method to estimate solutions to th
 
 ![image](https://user-images.githubusercontent.com/112734081/206884970-33b44710-4411-4fe8-96d8-2bcc3a0e5b0e.png)
 
-The main focus of the section of the paper that I am analyzing was on the number of cumulative infected individuals. I want to make sure my model conforms to the model used in the paper as they calculated solutions to the ODEs by hand. The solid black line in the top right image below represents the prediction of number of infected indivituals over time they achieved from their model:
+The main focus of the section of the paper that I am analyzing was on the number of cumulative infected individuals based on the total population of Italy (S0). I want to make sure my model conforms to the model used in the paper as they calculated solutions to the ODEs by hand. The solid black line in the top right image below represents the prediction of number of infected indivituals over time they achieved from their model:
 
 ![image](https://user-images.githubusercontent.com/112734081/206885122-88c51a01-fef5-4079-ba23-309c86c25532.png)
 
@@ -44,7 +44,14 @@ The β parameter seems to be the main parameter of interest in the paper as it c
 
 Here, I have tested three values of β (-1,0,1) and plotted the corresponding output of dR/dt. As we can see, there lies a steady state at (0,0) which is stable for a negaitve value of β and unstable for a positive value. We can also observe that the value of β cannot be 0. Although in reality, the R value is going to depend on the change in I when solving for this system of differential equations. Based on the plot of R at the beginning of the page, we are also going to approach steady state at R = 4x10^7.
 
+The output of the model corresponds to the two parameters α and β which describe the contact rate and the removal rate. A prompt isolation of infected individuals is reflected in raising β, a reduction of social contacts is reflected in lowering α. To look more specifically at the sensitvity of each parameter, I have raised each parameter by 1% from the intial value. The result is plotted below.
 
+![image](https://user-images.githubusercontent.com/112734081/207211902-26c01560-c486-4a6a-94a0-6a4c3437c430.png)
 
+I then took the percent change in the output to the ode solution and divided it by the percent change in the parameter to calculate the sensitity of R(t).
+
+![image](https://user-images.githubusercontent.com/112734081/207212288-aab1247d-a0ab-4185-854a-6d284cd1b366.png)
+
+We can see that increasing both parameters is going to effect the output in opposite ways. Ideally, to end the epidemic as fast as possible, you are going to want to raise β and reduce α as much as possible. This will raise the epidemic threshold γ. If this threshold is raised above the level of the total population N, the epidemic will stop.
 
 
