@@ -36,6 +36,9 @@ I was able to get a better fit in the early stages of the model, although the fa
 
 ![image](https://user-images.githubusercontent.com/112734081/206947187-38ae9ffa-9404-4f20-a5ad-d4e4584d59d7.png)
 
-So I am not sure if initial values were changed to match the data and get a better fit, but from the paper this is not listed anywhere so I am going to have to assume that there was something done differently in their hand calculations that I am not able to simulate. 
+This is mentioned in the paper that the fit is only accurate until roughly March 15th as the first set of restrictive measures against covid (masks, isolation) take place on March 8th and take about a week to effect the data. The SIR model itself is limited to only showing us what should be expected in terms of transmission of Covid if no restrictive measures occur.
 
+The β parameter seems to be the main parameter of interest in the paper as it corresponds to the removal rate of individuals who are self isolating. When looking at the overall cumulative number of infected (R), we see that it only depends on I and β. We can conduct a bifurcation analysis on this parameter to see how a change in β effects the steady state of R. 
+
+![image](https://user-images.githubusercontent.com/112734081/207209631-d28005d4-1c27-4285-9499-2f1a17651a4f.png)
 
