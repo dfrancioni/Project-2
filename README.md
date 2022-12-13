@@ -55,3 +55,8 @@ I then took the percent change in the output to the ode solution and divided it 
 We can see that increasing both parameters is going to effect the output in opposite ways. Ideally, to end the epidemic as fast as possible, you are going to want to raise β and reduce α as much as possible. This will raise the epidemic threshold γ. If this threshold is raised above the level of the total population N, the epidemic will stop.
 
 
+[Works Cited]
+
+Gaeta, Giuseppe. “A Simple SIR Model with a Large Set of 	Asymptomatic Infectives.” Mathematics in Engineering, vol. 3, 	no. 2, 2021, pp. 1–39., https://doi.org/10.3934/mine.2021013. 
+
+
