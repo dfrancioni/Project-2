@@ -40,5 +40,11 @@ This is mentioned in the paper that the fit is only accurate until roughly March
 
 The β parameter seems to be the main parameter of interest in the paper as it corresponds to the removal rate of individuals who are self isolating. When looking at the overall cumulative number of infected (R), we see that it only depends on I and β. We can conduct a bifurcation analysis on this parameter to see how a change in β effects the steady state of R. 
 
-![image](https://user-images.githubusercontent.com/112734081/207209631-d28005d4-1c27-4285-9499-2f1a17651a4f.png)
+![image](https://user-images.githubusercontent.com/112734081/207209794-2f60559e-030c-4f27-8f9c-3722a14b316c.png)
+
+Here, I have tested three values of β (-1,0,1) and plotted the corresponding output of dR/dt. As we can see, there lies a steady state at (0,0) which is stable for a negaitve value of β and unstable for a positive value. We can also observe that the value of β cannot be 0. Although in reality, the R value is going to depend on the change in I when solving for this system of differential equations. Based on the plot of R at the beginning of the page, we are also going to approach steady state at R = 4x10^7.
+
+
+
+
 
